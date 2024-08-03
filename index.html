@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rita Võ x Simmons | Hasu & Sakura</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
     <!-- HEADER SECTION -->
     <header class="relative">
-        <div class="header-text-part flex justify-between items-center	pt-6 px-28 absolute min-w-full">
+        <div class="header-text-part flex justify-between items-center pt-6 px-28 absolute min-w-full">
             <div class="logo"><img src="img/simmons_logo.webp" alt="#" width="120"></div>
             <nav id="navigation" class="flex">
                 <div class="nav-link-block"><a href="#" class="nav-link mr-8">Trang chủ</a></div>
@@ -22,62 +25,65 @@
         </div>
         <!-- <video class="absolute" autoplay muted loop id="video-background" src="#"></video> -->
         <div class="header-media-part">
-            <img src="img/2100x900.png" alt="">
+            <img src="img/BANNER/Landing page_Simmons-01.jpg" alt="" width="100%">
         </div>
     </header>
     <!-- NEW PRODUCT SECTION -->
-    <section id="new-product-section relative">
-        <div class="np-block text-center my-10">
-            <div class="title text-4xl font-bold">DÒNG SẢN PHẨM MỚI</div>
-            <div class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+    <section id="new-product-section container relative">
+        <div class="np-block text-center my-16">
+            <div class="title text-6xl font-light">DÒNG SẢN PHẨM MỚI</div>
+            <div class="sub-title text-xl">Simmons Nhật Bản kỷ niệm 60 năm</div>
         </div>
         <div class="np-card-block flex justify-center">
-            <div class="np-hasu-card bg-gray-200 relative mr-6">
-                <img src="img/1000x1000.png" alt="Hasu sản phẩm mới" width="500">
-                <div class="np-text-block text-center py-12 absolute bottom-0 inset-x-0">
+            <div class="np-hasu-card bg-gray-200 relative mr-6 rounded-xl" data-aos="fade-right">
+                <img class="rounded-xl" src="img/BANNER/Landing page_Simmons-03.jpg" alt="Hasu sản phẩm mới"
+                    width="500">
+                <!-- <div class="np-text-block text-center py-12 absolute bottom-0 inset-x-0">
                     <div class="np-hasu-title mb-5 text-2xl font-semibold">Beautyrest® Hasu</div>
                     <div class="button"><a class="decoration-none bg-black py-2 px-6 text-white font-semibold"
                             href="#">Chi tiết</a></div>
-                </div>
+                </div> -->
             </div>
-            <div class="np-sakura-card bg-gray-200 relative ml-6">
-                <img src="img/1000x1000.png" alt="Sakura sản phẩm mới" width="500">
-                <div class="np-text-block text-center py-12 absolute bottom-0 inset-x-0">
+            <div class="np-sakura-card bg-gray-200 relative ml-6 rounded-xl" data-aos="fade-left">
+                <img class="rounded-xl" src="img/BANNER/Landing page_Simmons-02.jpg" alt="Sakura sản phẩm mới"
+                    width="500">
+                <!-- <div class="np-text-block text-center py-12 absolute bottom-0 inset-x-0">
                     <div class="np-sakura-title mb-5 text-2xl font-semibold">Beautyrest® Sakura</div>
                     <div class="button"><a class="decoration-none bg-black py-2 px-6 text-white font-semibold"
                             href="#">Chi tiết</a></div>
-                </div>
+                </div> -->
             </div>
         </div>
-        <!-- <div class="np-flower-block flex justify-between absolute inset-x-0 top-40">
-            <img src="img/sakura.png" alt="Hoa trang trí" width="300">
-            <img src="img/sakura-rev.png" alt="Hoa trang trí" width="300">
+        <!-- <div class="np-flower-block flex justify-between absolute inset-x-0 -bottom-44">
+            <img src="img/sakura.png" alt="Hoa trang trí" width="430">
+            <img src="img/sakura-rev.png" alt="Hoa trang trí" width="430">
         </div> -->
     </section>
     <!-- STORY SECTION -->
-    <section id="story-section" class="mt-10 px-40">
-        <div class="section-title text-4xl font-bold text-center">CÂU CHUYỆN</div>
+    <section id="story-section" class="mt-24 px-40">
+        <div class="section-title text-6xl font-light text-center">CÂU CHUYỆN</div>
         <!-- #1 -->
         <div class="story flex justify-around my-16">
-            <div class="story-text w-96 content-center">
+            <div class="story-text w-96 content-center" data-aos="fade-right" data-aos-duration="1000">
                 <div class="story-title text-2xl font-bold mb-2">Giấc ngủ vàng</div>
-                <p class="story-paragraph">
+                <p class="story-paragraph text-xl">
                     Trung bình một người bình thường dành ra 8 tiếng một ngày và ⅓ cuộc đời cho giấc ngủ. Giấc ngủ ngon
                     không chỉ giúp bạn tràn đầy sức sống mà còn là chìa khóa để có một cuộc sống khỏe mạnh và hạnh phúc.
                 </p>
             </div>
-            <div class="story-image">
-                <img src="img/1000x1000.png" alt="Giấc ngủ vàng" width="200">
+            <div class="story-image"  data-aos="flip-right" data-aos-delay="200">
+                <img class="rounded-xl" src="img/BANNER/Landing page_Simmons-04.jpg" alt="Giấc ngủ vàng" width="400">
             </div>
         </div>
         <!-- #2 -->
         <div class="story flex justify-around my-16">
-            <div class="story-image">
-                <img src="img/1000x1000.png" alt="Made in Japan - bảo chứng cho chất lượng" width="320">
+            <div class="story-image"  data-aos="flip-right" data-aos-delay="200">
+                <img class="rounded-xl" src="img/BANNER/Landing page_Simmons-05.jpg"
+                    alt="Made in Japan - bảo chứng cho chất lượng" width="400">
             </div>
-            <div class="story-text w-96 content-center">
+            <div class="story-text w-96 content-center" data-aos="fade-left" data-aos-duration="1000">
                 <div class="story-title text-2xl font-bold mb-2">Made in Japan - bảo chứng cho chất lượng </div>
-                <p class="story-paragraph">
+                <p class="story-paragraph text-xl">
                     Được sản xuất nghiêm ngặt tại nhà máy tại Nhật Bản, mỗi chiếc nệm là kết quả của sự kết hợp hoàn hảo
                     giữa công nghệ tiên tiến và chất lượng vượt trội, đáp ứng mọi tiêu chuẩn khắt khe nhất.
                 </p>
@@ -85,26 +91,28 @@
         </div>
         <!-- #3 -->
         <div class="story flex justify-around my-16">
-            <div class="story-text w-96 content-center">
+            <div class="story-text w-96 content-center" data-aos="fade-right" data-aos-duration="1000">
                 <div class="story-title text-2xl font-bold mb-2">Bảo vệ cột sống và các bệnh về giấc ngủ</div>
-                <p class="story-paragraph">
+                <p class="story-paragraph text-xl">
                     Với thiết kế thông minh giúp nâng đỡ cột sống tự nhiên, giảm áp lực lên các vùng cơ, nệm Simmons
                     giúp bạn tận hưởng giấc ngủ sâu, hạn chế các vấn đề về giấc ngủ như ngáy, giật mình và đau mỏi cơ
                     xương khớp.
                 </p>
             </div>
-            <div class="story-image">
-                <img src="img/2000x3000.png" alt="Bảo vệ cột sống và các bệnh về giấc ngủ" width="330">
+            <div class="story-image"  data-aos="flip-right" data-aos-delay="200">
+                <img class="rounded-xl" src="img/BANNER/Landing page_Simmons-06.jpg"
+                    alt="Bảo vệ cột sống và các bệnh về giấc ngủ" width="400">
             </div>
         </div>
         <!-- #4 -->
         <div class="story flex justify-around my-16">
-            <div class="story-image">
-                <img src="img/3000x2000.png" alt="Đầu tư sức khỏe lâu dài" width="430">
+            <div class="story-image"  data-aos="flip-right" data-aos-delay="200">
+                <img class="rounded-xl" src="img/BANNER/Landing page_Simmons-07.jpg" alt="Đầu tư sức khỏe lâu dài"
+                    width="400">
             </div>
-            <div class="story-text w-96 content-center">
+            <div class="story-text w-96 content-center" data-aos="fade-left" data-aos-duration="1000">
                 <div class="story-title text-2xl font-bold mb-2">Đầu tư sức khỏe lâu dài</div>
-                <p class="story-paragraph">
+                <p class="story-paragraph text-xl">
                     Đầu tư vào nệm Simmons là đầu tư cho sức khỏe lâu dài. Với thời gian bảo hành lên đến 10 năm, bạn có
                     thể yên tâm tận hưởng giấc ngủ sâu và ngon mỗi đêm.
                 </p>
@@ -114,158 +122,182 @@
     <!-- FEATURE SECTION -->
     <section id="feature-section">
         <div class="section-title relative">
-            <div class="absolute font-bold text-4xl inset-0 text-center content-center">TÍNH NĂNG NỔI BẬT</div>
-            <img class="w-full" src="img/970x165.png" alt="">
+            <div class="absolute font-bold text-6xl inset-0 text-center content-center" style="color: white;">TÍNH
+                NĂNG NỔI BẬT
+            </div>
+            <img class="w-full" src="img/BANNER/Blogg-pocket-sprung-banners.jpg" alt="">
         </div>
         <div class="feature-text-block px-64">
-            <div class="section-sub-title text-3xl font-bold text-center mt-3 mb-2">Lò xo túi® độc quyền Simmons®</div>
-            <div class="feature-paragraph">Từ khi trở thành dấu ấn lớn của Simmons kể từ năm 1925, Công nghệ lò xo túi trở
-                thành “tiêu chuẩn vàng” trong việc mang đến giấc ngủ trọn vẹn với hệ thống lò xo túi hỗ trợ tối ưu và giảm
+            <div class="section-sub-title text-6xl font-light text-center mt-16 mb-6">Lò xo túi® độc quyền Simmons®
+            </div>
+            <div class="feature-paragraph text-center text-lg">Từ khi trở thành dấu ấn lớn của Simmons kể từ năm 1925,
+                Công nghệ lò xo túi trở
+                thành “tiêu chuẩn vàng” trong việc mang đến giấc ngủ trọn vẹn với hệ thống lò xo túi hỗ trợ tối ưu và
+                giảm
                 bớt xung động cơ thể, mang đến giấc ngủ vô cùng thoải mái cho khách hàng trên khắp thế giới.
-    
-                Mỗi cuộn lò xo túi từ Simmons được thiết kế với độ bền cao nhờ các sợi thép carbon bền bỉ. Các lò xo túi này
+
+                Mỗi cuộn lò xo túi từ Simmons được thiết kế với độ bền cao nhờ các sợi thép carbon bền bỉ. Các lò xo túi
+                này
                 được ví von như “trái tim” của mỗi chiếc nệm, điều này đảm bảo cấu trúc toàn vẹn và ổn định nổi tiếng từ
                 Simmons.</div>
             <div class="feature-image-block">
-                <div class="text-center mt-3 mb-2 text-xl font-semibold">Các loại túi lò xo thông thường</div>
-                <div class="feature-image"><img class="rounded-lg" src="img/feature_banner_1.png" alt="Các loại túi lò xo thông thường"></div>
-                <div class="text-center mt-3 mb-2 text-xl font-semibold">Lò xo túi® Simmons®</div>
-                <div class="feature-image"><img class="rounded-lg" src="img/feature_banner_2.png" alt="Các loại túi lò xo Simmons"></div>
+                <div class="feature-image px-44 my-10" data-aos="zoom-out-up"><img src="img/feature_comboimage.png"
+                        alt="Các loại túi lò xo thông thường"></div>
             </div>
-    
-            <div class="section-sub-title text-3xl font-bold text-center mt-7 mb-2">Nghệ thuật ngủ không gián đoạn</div>
-            <div class="feature-paragraph">Với hệ thống lò xo túi® giảm thiểu sự truyền động một cách tối ưu, sự phù hợp và
+
+            <div class="section-sub-title text-6xl font-light text-center mt-16 mb-6">Nghệ thuật ngủ không gián đoạn
+            </div>
+            <div class="feature-paragraph text-center text-lg">Với hệ thống lò xo túi® giảm thiểu sự truyền động một
+                cách tối ưu, sự phù hợp và
                 độ bền vượt trội, mang đến cho bạn giấc ngủ êm ái và thư giãn mỗi ngày.</div>
-            <div class="feature-block">
-                <div class="feature-icon">
-                    <img src="#" alt="#">
+            <img class="px-10 my-6" src="img/feature_sleeping.png" alt="Nghệ thuật ngủ không gián đoạn" data-aos="zoom-out-up">
+            <!--  -->
+            <div class="feature-block flex items-center justify-center px-44 py-4">
+                <div class="feature-icon w-fit mr-5" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="img/feature-icon-1.png" alt="Icon 1" width="100">
                 </div>
-                <div class="feature-text">
-                    <div class="feature-text-title">Tách Chuyển Động Vượt Trội</div>
-                    <div class="feature-text-paragraph">Hệ thống lò xo túi hoạt động độc lập mang đến một giấc ngủ không bị
-                        ảnh hưởng bởi chuyển động của người bên cạnh</div>
+                <div class="feature-text w-3/4" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="feature-text-title font-bold">Tách Chuyển Động Vượt Trội</div>
+                    <div class="feature-text-paragraph">Hệ thống lò xo túi hoạt động độc lập mang đến một giấc ngủ không
+                        bị ảnh hưởng bởi chuyển động của người bên cạnh</div>
                 </div>
             </div>
-            <div class="feature-block">
-                <div class="feature-icon">
-                    <img src="#" alt="#">
+            <!--  -->
+            <div class="feature-block flex items-center justify-center px-44 py-4">
+                <div class="feature-icon w-fit mr-5" data-aos="fade-right" data-aos-duration="1500">
+                    <img src="img/feature-icon-2.png" alt="Icon 2" width="100">
                 </div>
-                <div class="feature-text">
-                    <div class="feature-text-title">Tương Thích</div>
-                    <div class="feature-text-paragraph">Hệ thống lò xođáp ứng tối ưa và dễ thích ứng với các loại trọng
+                <div class="feature-text w-3/4" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="feature-text-title font-bold">Tương Thích</div>
+                    <div class="feature-text-paragraph">Hệ thống lò xo đáp ứng tối ưa và dễ thích ứng với các loại trọng
                         lượng và thẻ hình khác nhau để hỗ trợ cho từng cá nhân và tạo nên sự thoải mái nhất khi sử dụng
                     </div>
                 </div>
             </div>
-            <div class="feature-block">
-                <div class="feature-icon">
-                    <img src="#" alt="#">
+            <!--  -->
+            <div class="feature-block flex items-center justify-center px-44 py-4">
+                <div class="feature-icon w-fit mr-5" data-aos="fade-right" data-aos-duration="2000">
+                    <img src="img/feature-icon-3.png" alt="Icon 3" width="100">
                 </div>
-                <div class="feature-text">
-                    <div class="feature-text-title">Bền Bỉ</div>
-                    <div class="feature-text-paragraph">Người sử dụng có thể hoàn toàn yên tâm vì tất cả nệm Beautyrest® đều
+                <div class="feature-text w-3/4" data-aos="fade-left" data-aos-duration="2000">
+                    <div class="feature-text-title font-bold">Bền Bỉ</div>
+                    <div class="feature-text-paragraph">Người sử dụng có thể hoàn toàn yên tâm vì tất cả nệm Beautyrest®
+                        đều
                         đượng Simmons đảm bảo về sự thoải mái và độ bền.</div>
                 </div>
             </div>
         </div>
     </section>
     <!-- PRODUCT SECTION - HASU -->
-    <section id="hasu-section">
-        <div class="product-info hasu">
-            <div class="product-name">Beautyrest® Hasu</div>
-            <div class="product-price">Chỉ từ 38,080,800 VND</div>
-            <div class="product-descrption">Được thiết kế với cấu trúc lò xo túi độc quyền Simmons và
-                lớp bề mặt Tight Top để nâng đỡ tối ưu mỗi đêm.
-                Giống như hoa Sen biểu tượng cho sự thanh lịch và mạnh mẽ,
-                Beautyrest® Hasu được trang bị các lò xo túi chất lượng cao
-                để đảm bảo độ bền tối ưu</div>
-            <a href="#">
-                <div class="product-button">Mua Ngay</div>
-            </a>
+    <section id="hasu-section relative">
+        <div class="product-info hasu relative">
+            <img src="img/BANNER/Landing page_Simmons-10.jpg" alt="Hasu" width="100%">
+            <div class="absolute inset-y-0 right-0 w-1/2 text-right content-center mr-10">
+                <div class="product-name text-6xl">Beautyrest® Hasu</div>
+                <div class="product-price text-2xl my-3">Chỉ từ <span class="font-semibold">38,080,800 VND</span></div>
+                <div class="product-descrption text-lg">Được thiết kế với cấu trúc lò xo túi độc quyền Simmons và
+                    lớp bề mặt Tight Top để nâng đỡ tối ưu mỗi đêm.
+                    Giống như hoa Sen biểu tượng cho sự thanh lịch và mạnh mẽ,
+                    Beautyrest® Hasu được trang bị các lò xo túi chất lượng cao
+                    để đảm bảo độ bền tối ưu</div>
+                <a href="#">
+                    <div class="product-button py-3 text-lg font-bold">Mua Ngay >></div>
+                </a>
+            </div>
         </div>
-        <div class="product-gallery">
-            <div class="product-thumb"><img src="#" alt="Beautyrest® Hasu"></div>
-            <div class="product-feature-block">
-                <div class="product-feature"></div>
-                <div class="product-feature"></div>
-                <div class="product-feature"></div>
-                <div class="product-feature"></div>
+        <div class="product-gallery flex justify-center my-10">
+            <div class="product-thumb"><img class="rounded-lg" src="img/product_thumb_hasu.png" alt="Beautyrest® Hasu"
+                    width="800" data-aos="zoom-out"></div>
+            <div class="product-feature-block flex flex-col justify-between ml-8">
+                <div class="product-feature"><img class="rounded-lg" src="img/ICON/tight-top.png" alt="#" width="130" data-aos="fade-left" data-aos-duration="1000">
+                </div>
+                <div class="product-feature"><img class="rounded-lg" src="img/ICON/japan.png" alt="#" width="130" data-aos="fade-left" data-aos-duration="1200"></div>
+                <div class="product-feature"><img class="rounded-lg" src="img/ICON/spring.png" alt="#" width="130" data-aos="fade-left" data-aos-duration="1400">
+                </div>
+                <div class="product-feature"><img class="rounded-lg" src="img/ICON/flip.png" alt="#" width="130" data-aos="fade-left" data-aos-duration="1600"></div>
             </div>
         </div>
     </section>
     <!-- PRODUCT SECTION - SAKURA -->
-    <section id="sakura-section">
-        <div class="product-info sakura">
-            <div class="product-name">Beautyrest® Sakura</div>
-            <div class="product-price">Chỉ từ 43,286,400 VND</div>
-            <div class="product-descrption">Được chế tác với cấu trúc lò xo túi độc quyền Simmons® mang tính biểu tượng
-                và lớp bề mặt Pillow-top tạo cảm giác êm ái, cho giấc ngủ sâu không bị gián đoạn. Tượng trưng cho sự đổi
-                mới, hoa anh đào còn tượng trưng cho lời hứa về những khởi đầu mới</div>
-            <a href="#">
-                <div class="product-button">Mua Ngay</div>
-            </a>
+    <section id="sakura-section relative">
+        <div class="product-info sakura relative">
+            <img src="img/BANNER/Landing page_Simmons-09.jpg" alt="Sakura" width="100%">
+            <div class="absolute inset-y-0 left-0 w-1/2 content-center ml-10">
+                <div class="product-name text-6xl">Beautyrest® Sakura</div>
+                <div class="product-price text-2xl my-3">Chỉ từ <span class="font-semibold">43,286,400 VND</span></div>
+                <div class="product-descrption text-lg">Được chế tác với cấu trúc lò xo túi độc quyền Simmons® mang tính
+                    biểu
+                    tượng
+                    và lớp bề mặt Pillow-top tạo cảm giác êm ái, cho giấc ngủ sâu không bị gián đoạn. Tượng trưng cho sự
+                    đổi
+                    mới, hoa anh đào còn tượng trưng cho lời hứa về những khởi đầu mới</div>
+                <a href="#">
+                    <div class="product-button py-3 text-lg font-bold">Mua Ngay >></div>
+                </a>
+            </div>
         </div>
-        <div class="product-gallery">
-            <div class="product-thumb"><img src="#" alt="Beautyrest® Hasu"></div>
-            <div class="product-feature-block">
-                <div class="product-feature"><img src="#" alt="#"></div>
-                <div class="product-feature"><img src="#" alt="#"></div>
-                <div class="product-feature"><img src="#" alt="#"></div>
-                <div class="product-feature"><img src="#" alt="#"></div>
+        <div class="product-gallery flex justify-center my-10">
+            <div class="product-feature-block flex flex-col justify-between mr-8">
+                <div class="product-feature"><img class="rounded-lg" src="img/ICON/pillow-top.png" alt="#" width="130" data-aos="fade-right" data-aos-duration="1000">
+                </div>
+                <div class="product-feature"><img class="rounded-lg" src="img/ICON/japan.png" alt="#" width="130" data-aos="fade-right" data-aos-duration="1200"></div>
+                <div class="product-feature"><img class="rounded-lg" src="img/ICON/spring.png" alt="#" width="130" data-aos="fade-right" data-aos-duration="1400">
+                </div>
+                <div class="product-feature"><img class="rounded-lg" src="img/ICON/flip.png" alt="#" width="130" data-aos="fade-right" data-aos-duration="1600"></div>
+            </div>
+            <div class="product-thumb"><img src="img/product_thumb_sakura.png" alt="Beautyrest® Sakura" width="800" data-aos="zoom-out">
             </div>
         </div>
     </section>
     <!-- FOOTER SECTION -->
-    <footer>
-        <div class="footer-1st">
-            <img src="#" alt="Logo">
-            <div class="co-address address">
+    <footer class="flex justify-between bg-white p-6">
+        <div class="footer-1st" style="max-width: 30%;">
+            <img src="img/Main-Logo.svg" alt="Logo">
+            <div class="co-address address my-5">
                 CÔNG TY TNHH TẬP ĐOÀN RITA VÕ<br>Trụ sở chính:<br>327 Võ Nguyên Giáp, phường An Phú, TP. Thủ Đức, TP. Hồ
                 Chí Minh, Việt Nam
             </div>
             <div class="co-address tel">Điện thoại: 1800 1246</div>
             <div class="co-address site">Website: www.ritavo.com</div>
             <div class="co-address email">Email: info@ritavo.com</div>
-            <div class="co-address paperwork">Giấy CNĐKDN: 0302802627- Ngày cấp: 05/12/2002, được sửa đổi lần thứ 22
+            <div class="co-address paperwork mt-5">Giấy CNĐKDN: 0302802627- Ngày cấp: 05/12/2002, được sửa đổi lần thứ 22
                 ngày 02/12/2014, Cơ quan cấp: Phòng Đăng ký kinh doanh - Sở Kế hoạch và Đầu tư TPHCM</div>
         </div>
-        <div class="footer-2nd">
-            <div class="first-link-column">
-                <div>LIÊN KẾT</div>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
+        <div class="footer-2nd flex justify-around" style="width: 30%;">
+            <div class="first-link-column flex flex-col">
+                <div class="font-bold mb-2">LIÊN KẾT</div>
+                <a href="#">Trang chủ</a>
+                <a class="my-2" href="#">Beautyrest® Hasu</a>
+                <a href="#">Beautyrest® Sakura</a>
             </div>
-            <div class="second-link-column">
-                <div>LIÊN KẾT</div>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
+            <div class="second-link-column flex flex-col">
+                <div class="font-bold mb-2">LIÊN KẾT</div>
+                <a href="#">Câu chuyện</a>
+                <a class="my-2" href="#">Tính năng</a>
             </div>
         </div>
-        <div class="footer-3rd">
+        <div class="footer-3rd" style="width: 30%;">
             <div class="subscribe-block">
-                <div class="sub-title">ĐĂNG KÝ NHẬN TIN TỨC MỚI NHẤT</div>
-                <form action="#" class="sub-form">
-                    <input type="email" placeholder="Nhập email của bạn...">
+                <div class="sub-title text-xl font-bold mb-2">ĐĂNG KÝ NHẬN TIN TỨC MỚI NHẤT</div>
+                <form action="#" class="sub-form ">
+                    <input class="py-3 px-1 bg-black rounded-xl" type="email" placeholder="Nhập email của bạn...">
                     <button type="submit">Đăng ký</button>
                 </form>
             </div>
-            <div class="social-block">
-                <div class="social-title">LIÊN KẾT MẠNG XÃ HỘI</div>
-                <a href="#"><img src="#" alt="#"></a>
-                <a href="#"><img src="#" alt="#"></a>
-                <a href="#"><img src="#" alt="#"></a>
+            <div class="social-block mt-5">
+                <div class="social-title text-xl font-bold mb-2">LIÊN KẾT MẠNG XÃ HỘI</div>
+                <div class="flex">
+                    <a href="#"><img src="img/fb.png" alt="Facebook Icon" width="50"></a>
+                    <a class="mx-2" href="#"><img src="img/ins.png" alt="Instagram Icon" width="50"></a>
+                </div>
             </div>
         </div>
     </footer>
     <!-- STICKY SECTION -->
-    <div class="cta-block">
+    <div class="cta-block fixed">
         Liên hệ mua hàng
     </div>
-    <div class="cta-popup">
+    <div class="cta-popup hidden">
         <form action="#" class="cta-form">
             <div class="popup-title">LIÊN HỆ MUA HÀNG</div>
             <div class="input-double">
@@ -277,6 +309,12 @@
             <button type="submit">Gửi lời nhắn</button>
         </form>
     </div>
+
+    <script type="text/javascript" src="https://web.nvnstatic.net/js/events/newyear.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
